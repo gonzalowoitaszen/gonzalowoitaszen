@@ -1,0 +1,41 @@
+
+
+.lista_no{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 1rem;
+    background-color: black;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentacion{
+    color: black;
+}
+
+.form{
+    color: blueviolet;
+}
+
+.logos{
+    color: blueviolet;
+}
+
+
+.header_la_empresa{
+    color: blueviolet;
+}
