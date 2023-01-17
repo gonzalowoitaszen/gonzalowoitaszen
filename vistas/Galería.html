@@ -1,64 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- animaciones -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería</title>
     <link rel="stylesheet" href="../css/contenido.css">
-
+</head>
     <body class="body">
-        <Header class="header">
-            <main>
-                
-            </main>
-            <NAV>
-                <UL>
-                    <li>
-                        <a class="anchor" href="./contacto.html">Contacto</a>
-                    </li>
-                    <li>
-                        <a class="anchor" href="./La_Empresa.html">La Empresa</a>
-                    </li>
-                    <LI>
-                        <a class="anchor" href="./Tienda.html">Tienda</a>
-                    </LI>
-                    <li>
-                        <a class="anchor" href="../index.html">Inicio</a>
-                    </li>
-                </ul>   
-            </NAV>
-            <nav>
-                <img src="../img/1.jpg"  width="300px" alt="">
-                <img src="../img/2.jpg"  width="300px" alt="">
-                <img src="../img/3.jpg"  width="300px" alt="">
-                <img src="../img/4.jpg"  width="300px" alt="">
-                <img src="../img/5.jpg"  width="300px" alt="">
-                <img src="../img/6.jpg"  width="300px" alt="">
-                <img src="../img/7.jpg"  width="300px" alt="">
-                <img src="../img/8.jpg"  width="300px" alt="">
-                <img src="../img/9.jpg"  width="300px" alt="">
-                <img src="../img/10.jpg"  width="300px" alt="">
-                <img src="../img/11.jpg"  width="300px" alt="">
-                <img src="../img/12.jpg"  width="300px" alt="">
-                <video src="../img/13.mp4"  width="300px" controls ></video>
-                <video src="../img/14.mp4"  width="300px" controls ></video>
-                <video src="../img/15.mp4"  width="300px" controls ></video>
-                <video src="../img/16.mp4"  width="300px" controls ></video>
-                <video src="../img/17.mp4"  width="300px" controls ></video>                
-            </nav>
+        <div>
+            <Header class="header">
+                <img class="logo" data-aos="zoom-in" src="../img/logo.jpg" alt="logo" width="200px"></a>
+                <NAV class="header_nav">
+                    <UL class="ul_nav">
+                        <li><a class="anchor" href="./contacto.html">Contacto</a></li>
+                        <li><a class="anchor" href="./La_Empresa.html">La Empresa</a></li>
+                        <LI><a class="anchor" href="./Tienda.html">Tienda</a></LI>
+                        <li><a class="anchor" href="../index.html">Inicio</a></li>
+                    </ul>   
+                </NAV>
+            </Header>
     
-        </HEader>
-
-            <footer class="footer">
-
-                <video src="../img/WhatsApp Video 2022-12-15 at 17.31.35.mp4" width="300" autoplay loop muted controls ></video>
-                <br>
-                <div class="footer_galeria" >
-                    En GM Hidráulica comercializamos mangueras de alta y baja presión abasteciendo fuertemente a la industria. Contamos con servicio puerta a puerta, 20 años de experiencia y atendido por su dueño. Acomodados ya en el mercado por la particularidad del asesoramiento personal.       
+                <div>
+                    <img src="../img/1.jpg" data-aos="zoom-in"  width="200px" alt="">
+                    <img src="../img/2.jpg" data-aos="zoom-in"  width="200px" alt="">
+                    <img src="../img/3.jpg" data-aos="zoom-in"  width="200px" alt="">
+                    <img src="../img/4.jpg" data-aos="zoom-in"  width="200px" alt="">
+                    <img src="../img/5.jpg" data-aos="zoom-in"  width="200px" alt="">
+                    <img src="../img/6.jpg" data-aos="zoom-in"  width="200px" alt="">
+                    <img src="../img/7.jpg" data-aos="zoom-in"  width="200px" alt="">
+                    <img src="../img/8.jpg" data-aos="zoom-in"  width="200px" alt="">
+                    <img src="../img/9.jpg" data-aos="zoom-in"  width="200px" alt="">
+                    <img src="../img/10.jpg" data-aos="zoom-in"  width="200px" alt="">
+                    <img src="../img/11.jpg" data-aos="zoom-in"  width="200px" alt="">
+                    <img src="../img/12.jpg" data-aos="zoom-in"  width="200px" alt="">
+                    <video src="../img/13.mp4" data-aos="zoom-in"  width="200px" controls ></video>
+                    <video src="../img/14.mp4" data-aos="zoom-in"  width="200px" height="250px" controls ></video>
+                    <video src="../img/15.mp4" data-aos="zoom-in"  width="200px" controls ></video>
+                    <video src="../img/16.mp4" data-aos="zoom-in"  width="200px" controls ></video>
+                    <video src="../img/17.mp4" data-aos="zoom-in"  width="200px" controls ></video>                
                 </div>
-     
-            </footer>
+        
     
-</body>
+                <footer class="footer">
+                    <div class="div_vide2">
+                        <video src="../img/WhatsApp Video 2022-12-15 at 17.31.35.mp4" width="130" autoplay loop muted controls data-aos="zoom-in" ></video>
+                    </div>
+                    <p class="parrafo_galeria">
+                        En GM Hidráulica comercializamos mangueras de alta y baja presión abasteciendo fuertemente a la industria. Contamos con servicio puerta a puerta, 20 años de experiencia y atendido por su dueño. Acomodados ya en el mercado por la particularidad del asesoramiento personal.       
+                    </p>
+    
+                </footer>
+        </div>
+
+        <script>
+            AOS.init({
+                once: true,
+            }
+    
+            );
+        </script>
+
+    </body>        
+    
 </html>

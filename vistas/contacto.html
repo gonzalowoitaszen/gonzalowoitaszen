@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- animaciones -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,80 +11,99 @@
     <link rel="stylesheet" href="../css/contenido.css">
 </head>
 <body class="body">
-    <main>
-        <div class="header_contacto" >
-               
-        </div>
-    </main>
-    <header class="header">
-        <NAV>
-            <UL>
-                <li>
-                    <a class="anchor" href="./Galería.html">Galería</a>
-                </li>
-                <li>
-                    <a class="anchor" href="./La_Empresa.html">La Empresa</a>
-             </li>
-                <LI>
-                    <a class="anchor" href="./Tienda.html">tienda</a>
-             </LI>
-                <li>
-                    <a class="anchor" href="../index.html">Inicio</a>
-             </li>
-            </ul>   
-        </NAV>
-            <div>
-                <img src="../img/email logo.jpg" width="100px" alt="email"> <p class="logos" >Gmhidraulica22@gmail.com</p>
-                <img src="../img/instagram logo.jpg" alt="instagram"> <p class="logos" >Gmhidraulica22</p>
-                <img src="../img/Facebook logo.png" width="100px" alt=""> <p class="logos" >Gmhidraulica2</p>
-                <img src="../img/whatsapp logo.png" width="100px" alt="whatsapp"> <p class="logos" >1121561213</p>
+    <div>
+        <header class="header">
+        
+            <img class="logo" data-aos="zoom-in" src="../img/logo.jpg" alt="logo" width="200px"></a>
+
+            <NAV>
+                <UL class="ul_nav">
+                    <li><a class="anchor" href="./Galería.html">Galeria</a></li>
+                    <li><a class="anchor" href="./La_Empresa.html">La Empresa</a></li>
+                    <li><a class="anchor" href="./Tienda.html">tienda</a></li>
+                    <li><a class="anchor" href="../index.html">Inicio</a></li>
+                </ul>   
+            </NAV>
+        </header>
+    </div>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <main>
+            <div class="div_main">
+                <div class="logo_contacto">
+                    <img src="../img/email logo.jpg" data-aos="zoom-in" width="40px" height="40px" alt="email"> <br> <p class="logos" >Gmhidraulica22@gmail.com</p>
+                </div>
+                <div class="logo_contacto">
+                    <img src="../img/instagram logo.jpg" data-aos="zoom-in" width="40px" height="40px" alt="instagram"> <p class="logos" >@Gmhidraulica22</p>
+                </div>
+                <div class="logo_contacto">
+                    <img src="../img/Facebook logo.png" data-aos="zoom-in" width="40px" height="40px" alt=""> <p class="logos" >Gmhidraulica2</p>
+                </div>
+                <div class="logo_contacto">
+                    <img src="../img/whatsapp logo.png" data-aos="zoom-in" width="40px" height="40px"alt="whatsapp"> <p class="logos" >1121561213</p>
+                </div>
             </div>
             <br>
-
-        </div>
-            <form action="#" method="get" enctype="multipart/form-data">
-                <legend> <strong>Formulario</strong> </legend>
-                <div>
-                    <label class="form" for="name">Nombre</label>
-                    <input type="text" name="Nombre" id="name" required>
-                </div>
-                <br>
-                <div>
-                     <label class="form" for="cellphone number">Celular</label>
-                     <input type="text" name="Numero De Celular" id="cellphone number" required>
-
-                </div>
-                <br>
-                <div>
-                     <label class="form" for="email">Email</label>   
-                     <input type="email" name="Email" id="Email">
-                </div>
-              <br>
-                <div>
-                    <label class="form" for="Consulta">Consulta</label>
-                    <textarea name="Consulta" id="Consulta" cols="30" rows="10"></textarea>
-                </div>
-                <br>
-                <div>
-                    <button type="submit">Enviar</button>
-                </div>
-            </form>
-        </div>
-                
-                <br>
-
-            
-    </header>
-    
-</body>
-    <footer class="footer">
-        </div>
-            <video src="../img/WhatsApp Video 2022-12-15 at 17.31.35.mp4" width="200"  autoplay loop muted controls ></video>
-        <div>
-            <div>
-                En GM Hidráulica comercializamos mangueras de alta y baja presión abasteciendo fuertemente a la industria. Contamos con servicio puerta a puerta, 20 años de experiencia y atendido por su dueño. Acomodados ya en el mercado por la particularidad del asesoramiento personal.    
+            <br>
+            <br>
+            </div div_main>
+                <form class="form" data-aos="zoom-in" action="#" method="get" enctype="multipart/form-data">
+                    <legend> <strong>Consulta</strong> </legend>
+                    <br>
+                    <div>
+                        <label class="form" for="name">Nombre</label>
+                        <input type="text" name="Nombre" id="name" required>
+                    </div><br>
+                    <div>
+                        <label class="form" for="cellphone number">Celular</label>
+                        <input type="text" name="Numero De Celular" id="cellphone number" required>
+                    </div><br>
+                    <div>
+                        <label class="form" for="email">Email</label>   
+                        <input type="email" name="Email" id="Email">
+                    </div><br>
+                    <div>
+                        <label class="form" for="Consulta">Consulta</label>
+                        <textarea name="Consulta" id="Consulta" cols="30" rows="10"></textarea>
+                    </div><br>
+                    <br>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
             </div>
-            
+        </main>
+        <br>
+        <br>
+        <br>
+        <br>
 
-    </footer>
+        
+    
+                    <footer class="footer">
+                    </div class="div_video" >
+                    <video src="../img/WhatsApp Video 2022-12-15 at 17.31.35.mp4" width="130"  autoplay loop muted controls data-aos="zoom-in" ></video>
+                    <div>
+                        <div>
+                            <p class="parrafo_contacto">
+                                En GM Hidráulica comercializamos mangueras de alta y baja presión abasteciendo fuertemente a la industria. Contamos con servicio puerta a puerta, 20 años de experiencia y atendido por su dueño. Acomodados ya en el mercado por la particularidad del asesoramiento personal.    
+                            </p>
+                        </div>
+                        
+                        
+                    </footer>
+                    
+                </div>
+
+        <script>
+            AOS.init({
+                once: true,
+            }
+            
+            );
+            </script>    
+
+</body>
+
 </html>
