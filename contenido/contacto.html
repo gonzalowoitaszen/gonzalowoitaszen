@@ -28,13 +28,13 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link" href="./Galería.html">Galería</a>
+                            <a class="nav-link active" href="./Galería.html">Galería</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./La_Empresa.html">La Empresa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./Tienda.html">Tienda</a>
+                            <a class="nav-link active" href="./Tienda.html">Tienda</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
@@ -54,13 +54,16 @@
 
 <body class="body">
         <main>
-            <iframe data-aos="zoom-in" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.5376656123267!2d-58.37858938422538!3d-34.742046472338274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2ac3bcbd60d%3A0xfe7d1449fcf17296!2sAconcagua%20489%2C%20B1825BIY%20Banfield%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1675176985068!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="container-fluid">
+              <iframe data-aos="zoom-in" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.5376656123267!2d-58.37858938422538!3d-34.742046472338274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2ac3bcbd60d%3A0xfe7d1449fcf17296!2sAconcagua%20489%2C%20B1825BIY%20Banfield%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1675176985068!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
 
             <br><br><br><br><br><br><br>
             
             
               
-                <div class="container text-center">
+                <div class="container text-center" width="100%">
                         <div class="row">
                           <div class="col">
                             <a href="https://www.facebook.com/profile.php?id=100086321589149" style="color: blue;" class="fa fa-facebook" > <br> Facebook</a>
@@ -89,25 +92,25 @@
             
             <br><br><br><br><br><br><br><br>
 
-            </div div_main>
-                <div margin="10px">   
-                    <form class="row g-3" style="color: yellow;" data-aos="zoom-in" novalidate="">
+          </div>
+                <div margin="10px" class="container-fluid" style="color: yellow;">   
+                    <form class="row" style="width: 40%;" data-aos="zoom-in" novalidate="">
                         <h3>Contacto</h3>
-                        <div class="col-md-4">
+                        <div class="col-md-12">
                           <label for="validationCustom01" class="form-label">Nombre</label>
                           <input type="text" class="form-control" id="validationCustom01" value="Nombre" required="">
                           <div class="valid-feedback">
                             Excelente!
                           </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-12">
                           <label for="validationCustom02" class="form-label">Apellido</label>
                           <input type="text" class="form-control" id="validationCustom02" value="Apellido" required="">
                           <div class="valid-feedback">
                             Excelente!
                           </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-12">
                           <label for="email" class="form-label">Email</label>
                           <div class="input-group has-validation">
                             <span class="input-group-text" id="inputGroupPrepend">@</span>
@@ -117,14 +120,14 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                           <label for="validationCustom03" class="form-label">Ciudad</label>
                           <input type="text" class="form-control" id="validationCustom03" required="">
                           <div class="invalid-feedback">
                             Por favor elija una ciudad.
                           </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-12">
                           <label for="validationCustom04" class="form-label">Provincia</label>
                           <select class="form-select" id="validationCustom04" required="">
                             <option selected="" disabled="" value="">Elige...</option>
@@ -134,14 +137,14 @@
                             Por favor elija una provincia.
                           </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-12">
                           <label for="validationCustom05" class="form-label">Código Postal</label>
                           <input type="text" class="form-control" id="validationCustom05" required="">
                           <div class="invalid-feedback">
                             Por favor ingrese su código postal.
                           </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-12">
                             <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                           </div>
