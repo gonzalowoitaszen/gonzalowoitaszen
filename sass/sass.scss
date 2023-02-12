@@ -1,6 +1,62 @@
-p {
-    color: burlywood;
-}
-.h1{
+.h1, .p, .p-3, .card-text{
     font-family: 'Comfortaa', cursive;
 }
+
+
+.empresa {
+
+
+    text-align: center;
+    margin: 10rem;
+    padding: 10rem;
+    border: outset;
+    
+}
+
+@media screen and (min-width: 425px) {
+    .empresa { 
+        text-align: center;
+        margin: 0rem; 
+        padding: 0rem; 
+        border: outset;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .empresa { 
+        text-align: center;
+        margin: 0rem; 
+        padding: 0rem; 
+        border: outset;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .empresa { 
+        text-align: center;
+        margin: 10rem; 
+        padding: 10rem; 
+        border: outset;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .empresa { 
+        text-align: center;
+        margin: 10rem; 
+        padding: 10rem; 
+        border: outset;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .empresa { 
+        text-align: center;
+        margin: 10rem; 
+        padding: 10rem; 
+        border: outset;
+    }
+}
+
+
