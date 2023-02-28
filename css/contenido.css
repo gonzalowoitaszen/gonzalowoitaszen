@@ -1,9 +1,120 @@
+                                          /* Generales */
+
 .h1, .p, .p-3, .card-text{
     font-family: 'Comfortaa', cursive;
+    color: yellow;
 }
 
 
-.empresa {
+
+
+
+
+                                            /* index */
+.header {
+    color: darkslategray;
+}
+.img_header{
+    height: 130px;
+}
+
+
+.body{
+    background-color: black;
+}
+
+.faa{
+    margin-top: 15rem;
+}
+
+.c{
+    margin-top: 10rem;
+    width: 40%;
+    margin-left: 35%;
+    
+}
+
+
+.d-block {
+    width:40%; 
+
+}
+
+.footer-1 {
+    margin-top: 5rem;
+}
+
+.f{
+    width:30px
+}
+.ff{
+    color: darkslategray
+}
+
+.whatsapp{color: green
+}
+
+.facebook{
+    color: blue;
+}
+
+.instagram{
+    color: magenta;
+}
+                                            /* Contacto */
+
+.bodyc{
+    background-color: black;
+    margin-top: 20rem;
+}
+
+.container{
+    margin-top: 15rem;
+}
+
+.fa-facebook{
+    color: blue;
+}
+.fa-whatsapp{
+    color: green;
+}
+.fa-google{
+    color: white;
+}
+.fa-youtube{
+    color: red
+}
+.fa-instagram{
+    color: magenta;
+}
+
+.cc{
+    margin:15px; 
+    color:yellow;
+    margin-top: 15rem;
+}
+
+.rr{
+    width: 40%;
+}
+.thumb-content{
+    margin-top: 1rem;
+}
+                                            /* galeria */
+.card-body{
+    background-color: black;
+}
+.cg{
+    margin-top: 20rem;
+}
+
+
+
+                                            /* la empresa */
+.cle{
+    margin-top: 15rem;
+}
+.empresa{
 
 
     text-align: center;
@@ -13,11 +124,35 @@
     
 }
 
+
+                                             /* Tienda */
+
+
+.div{
+    margin-top: 20rem;
+    margin-left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+/* la empresa */
+
 @media screen and (min-width: 425px) {
-    .empresa { 
+    .empresa {
         text-align: center;
-        margin: 0rem; 
-        padding: 0rem; 
+        margin: 0rem;
+        padding: 0rem;
         border: outset;
     }
 }
@@ -58,7 +193,6 @@
         border: outset;
     }
 }
-
 
 
 
