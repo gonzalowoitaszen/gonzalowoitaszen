@@ -1,10 +1,128 @@
-p {
-  color: burlywood; }
+.bodyc {
+  background-color: black;
+  margin-top: 20rem; }
 
-.p-3 {
-  font-family: 'Comfortaa', cursive;
-}
+.container {
+  margin-top: 15rem; }
 
-.h1 {
+.fa-facebook {
+  color: blue; }
+
+.fa-whatsapp {
+  color: green; }
+
+.fa-google {
+  color: white; }
+
+.fa-youtube {
+  color: red; }
+
+.fa-instagram {
+  color: magenta; }
+
+.cc {
+  margin: 15px;
+  color: yellow;
+  margin-top: 15rem; }
+
+.rr {
+  width: 40%; }
+
+.thumb-content {
+  margin-top: 1rem; }
+
+.card-body {
+  background-color: black; }
+
+.cg {
+  margin-top: 20rem; }
+
+.h1, .p, .p-3, .card-text {
   font-family: 'Comfortaa', cursive;
-}
+  color: yellow; }
+
+.header {
+  color: darkslategray; }
+
+.img_header {
+  height: 130px; }
+
+.body {
+  background-color: black; }
+
+.faa {
+  margin-top: 15rem; }
+
+.c {
+  margin-top: 10rem;
+  width: 40%;
+  margin-left: 35%; }
+
+.d-block {
+  width: 40%; }
+
+.footer-1 {
+  margin-top: 5rem; }
+
+.f {
+  width: 30px; }
+
+.ff {
+  color: darkslategray; }
+
+.whatsapp {
+  color: green; }
+
+.facebook {
+  color: blue; }
+
+.instagram {
+  color: magenta; }
+
+.cle {
+  margin-top: 15rem; }
+
+.empresa {
+  text-align: center;
+  margin: 10rem;
+  padding: 10rem;
+  border: outset; }
+
+@media screen and (min-width: 425px) {
+  .empresa {
+    text-align: center;
+    margin: 0rem;
+    padding: 0rem;
+    border: outset; } }
+
+@media screen and (max-width: 768px) {
+  .empresa {
+    text-align: center;
+    margin: 0rem;
+    padding: 0rem;
+    border: outset; } }
+
+@media screen and (min-width: 1024px) {
+  .empresa {
+    text-align: center;
+    margin: 10rem;
+    padding: 10rem;
+    border: outset; } }
+
+@media screen and (min-width: 1440px) {
+  .empresa {
+    text-align: center;
+    margin: 10rem;
+    padding: 10rem;
+    border: outset; } }
+
+@media screen and (min-width: 2560px) {
+  .empresa {
+    text-align: center;
+    margin: 10rem;
+    padding: 10rem;
+    border: outset; } }
+
+.div {
+  margin-top: 20rem;
+  margin-left: 2rem; }
