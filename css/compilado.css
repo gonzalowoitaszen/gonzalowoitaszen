@@ -2,6 +2,11 @@
   background-color: black;
   margin-top: 20rem; }
 
+.google {
+  width: 80%;
+  height: 450px;
+  border: 0; }
+
 .container {
   margin-top: 15rem; }
 
@@ -82,6 +87,10 @@
 .cle {
   margin-top: 15rem; }
 
+.video {
+  width: 200px;
+  height: 200px; }
+
 .empresa {
   text-align: center;
   margin: 10rem;
@@ -125,4 +134,7 @@
 
 .div {
   margin-top: 20rem;
-  margin-left: 2rem; }
+  margin-left: 1rem; }
+
+.img {
+  size: 300px; }
