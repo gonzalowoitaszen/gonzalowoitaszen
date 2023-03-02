@@ -97,6 +97,13 @@
   padding: 10rem;
   border: outset; }
 
+.div {
+  margin-top: 20rem;
+  margin-left: 1rem; }
+
+.img {
+  size: 300px; }
+
 @media screen and (min-width: 425px) {
   .empresa {
     text-align: center;
@@ -131,10 +138,3 @@
     margin: 10rem;
     padding: 10rem;
     border: outset; } }
-
-.div {
-  margin-top: 20rem;
-  margin-left: 1rem; }
-
-.img {
-  size: 300px; }
